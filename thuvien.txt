@@ -1,0 +1,12 @@
+nhập  gấu trúc  dưới dạng  pd
+
+dataframe_ex  = { "a" : [ 1 , 3 , 5 , 7 , 9 ], "b" : [ - 2 , 4 , 6 , 8 , 22 ], "c" : [ 23 , 45 , 44 , 54 , 64 ]}
+df =  pd . DataFrame ( dataframe_ex )
+in ( df )
+print ( 'Trong ra cot dau cua 1 khung data' )
+print ( df [ 'a' ])
+print ( 'Trong hang dau tien cua 1 khung data' )
+print ( df . loc [ 0 ])
+print ( 'In ra phan tu dau cua 1 series' )
+loạt_dữ_liệu  =  pd . Chuỗi ([ 1 , 3 , 5 , 7 , 9 ])
+print ( series_data [ 1 ])
